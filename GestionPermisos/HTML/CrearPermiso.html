@@ -7,8 +7,8 @@
     <script src="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css"></script>
     <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 
-    <title>Editar Rol</title>
-    <link rel="stylesheet" href="../CSS/EditarRol.css">
+    <title>agregar Permiso</title>
+    <link rel="stylesheet" href="../CSS/CrearPermiso.css">
 
 </head>
 <body class="fondorr">
@@ -16,12 +16,12 @@
     <div id="contenedor">
         
         <form class="form-register">
-            <h4> Editar Rol</h4>    
+            <h4> Agregar Permiso</h4>    
             <div class="controles">
                 <select id="multi-select">
-                    <option value="MIaM">Admin</option>
-                    <option value="PL">Vendedor</option>
-                    <option value="SA">Asistente</option>
+                    <option value="MIaM">Usuarios</option>
+                    <option value="PL">Gestion Roles</option>
+                    <option value="SA">Insumos</option>
                    
                
                   </select>
@@ -29,20 +29,21 @@
         
             <div class="contenedor">
                 <select id="multi-select" multiple>
-                  <option value="MIaM">Configuracion</option>
-                  <option value="PL">Usuario</option>
-                  <option value="SA">Maquinas</option>
-                  <option value="NQ">Turnos</option>
+                  <option value="MIaM">Agregar</option>
+                  <option value="PL">Editar</option>
+                  <option value="SA">Eliminar</option>
+                  <option value="SA">Consultar</option>
              
                 </select>
                 <span class="focus"></span>
               </div>
           
            
-            <input class="botonr" type="submit" value="Editar">
+            <input class="botonr" type="submit" value="Crear">
 
         </form>
 </div>
 </div>
 </body>
 </html>
+
